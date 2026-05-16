@@ -1,17 +1,17 @@
 # Task Manager
 
-A full-stack task collaboration platform that lets users create projects, manage tasks, assign members, and track progress — all with role-based access control. Built with a dark, purple-accented UI.
+A full-stack task collaboration platform that lets users create projects, manage tasks, assign members, and track progress - all with role-based access control. Built with a dark, purple-accented UI.
 
 ## Features
 
-- **Authentication** — Email/password signup & login, JWT-based persistent sessions, bcrypt-hashed passwords
-- **Role-Based Access Control** — `admin` and `member` roles with strictly enforced permissions
-- **Projects** — Create, edit, delete, search, and invite team members
-- **Tasks** — Create, assign, prioritize, set due dates, filter, and search
-- **Status Workflow** — `To Do -> In Progress -> Completed`
-- **Dashboard** — Stats, charts (status/priority breakdowns), recent activity, overdue tracking
-- **Modern Dark UI** — Responsive, accessible, Tailwind-styled top-nav layout with toasts and loading states
-- **Production-ready** — Error handling, pagination, validation, async handlers, env-based config
+- **Authentication** - Email/password signup & login, JWT-based persistent sessions, bcrypt-hashed passwords
+- **Role-Based Access Control** - `admin` and `member` roles with strictly enforced permissions
+- **Projects** - Create, edit, delete, search, and invite team members
+- **Tasks** - Create, assign, prioritize, set due dates, filter, and search
+- **Status Workflow** - `To Do -> In Progress -> Completed`
+- **Dashboard** - Stats, charts (status/priority breakdowns), recent activity, overdue tracking
+- **Modern Dark UI** - Responsive, accessible, Tailwind-styled top-nav layout with toasts and loading states
+- **Production-ready** - Error handling, pagination, validation, async handlers, env-based config
 
 ## Tech Stack
 
@@ -167,7 +167,7 @@ All authenticated requests use `Authorization: Bearer <token>`.
    - **Start command:** `npm run preview -- --host 0.0.0.0 --port $PORT`
 5. Update the backend's `CLIENT_URL` to the frontend's Railway domain and redeploy.
 
-## Run Locally — Quickstart
+## Run Locally - Quickstart
 
 ```bash
 # Terminal 1
